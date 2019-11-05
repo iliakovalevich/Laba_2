@@ -43,8 +43,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="IOC.cs" />
+    <Compile Include="IOF.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="PunctuationMarks.cs" />
+    <Compile Include="Sentence.cs" />
+    <Compile Include="Symbol.cs" />
+    <Compile Include="Text.cs" />
+    <Compile Include="Word.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
